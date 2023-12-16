@@ -9,19 +9,26 @@
   display: flex;
   align-items: center;
   list-style: none;
-  gap: 50px;
+  gap: 40px;
   margin: 0px;
   padding: 0px;
 }
 .collapse {
-  padding-left: 24%;
+  padding-left: 20%;
   justify-content: space-between;
+}
+.navbar-brand{
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
 }
 .fa-user {
   padding-right: 10px;
 }
 .d-flex {
-  width: 60%;
+  width: 56%;
 }
 
 /* List under navbar design */
@@ -280,6 +287,13 @@ h5, p, h6{
 
 
 @media screen and (max-width: 992px) {
+  .navbar-brand{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
   .collapse {
     padding-left: 0;
   }
