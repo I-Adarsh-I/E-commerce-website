@@ -1,0 +1,387 @@
+/* Navbar design */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 50px;
+  margin: 0px;
+  padding: 0px;
+}
+.collapse {
+  padding-left: 24%;
+  justify-content: space-between;
+}
+.fa-user {
+  padding-right: 10px;
+}
+.d-flex {
+  width: 60%;
+}
+
+/* List under navbar design */
+.categories {
+  height: 6vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.list-cat {
+  width: 40%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.li-items {
+  width: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main home carousel design CSS */
+.main-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.car-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Featured products carousel design CSS */
+.products-carousel {
+  padding: 0 0 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.featured-container {
+  margin: 60px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: rgb(215, 215, 215);
+  z-index: 0;
+  width: 40px;
+  height: 40px;
+  top: 50%;
+  margin: 0 20px;
+}
+.card-text, .card-title{
+    text-align: center;
+}
+.add-to-cart-btn{
+  margin-top: 15px;
+}
+.card-img-top{
+  width: 100%;
+  height: 350px;
+}
+
+/* Login form design CSS */
+.log-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  justify-content: center;
+  width: 25%;
+}
+.form-head {
+  font-weight: 600;
+}
+.inp-field {
+  width: 100%;
+  padding: 5px;
+  border-radius: 8px;
+  border: 1px solid rgb(216, 216, 216);
+}
+.inp-field:focus {
+  outline: none;
+}
+.btn-lgn {
+  width: 100%;
+  margin: 10px 0 0 0;
+}
+.con-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 90vh;
+}
+.con-row {
+  width: 80%;
+  gap: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.con-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+}
+.msg-box {
+  height: 100px;
+}
+
+/* Footer CSS */
+footer {
+  padding: 20px 0;
+  background-color: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.foot-text {
+  padding: 15px 0 0 0;
+  margin: 0;
+  border-top: 1px solid rgb(206, 206, 206);
+  text-align: center;
+}
+.head-menu {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+h3 {
+  margin: 0;
+}
+.foot-container {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+.foot-menu-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.foot-menu-list-item {
+  margin-top: 10px;
+}
+.copyright-text {
+  margin-top: 15px;
+  width: 80%;
+  align-items: center;
+}
+
+/* Cart design CSS */
+.cart-con{
+  height: 90vh;
+}
+.cart-col{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cart-card-1{
+  height: 100%;
+  width: 100%;
+}
+h5, p, h6{
+  margin: 0;
+  padding: 0;
+}
+.cart-card-body-con{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+.cart-form-inp{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  gap: 5px;
+}
+.cart-btn-add-sub{
+  width: 30px;
+  height: 30px;
+  padding: 0;
+}
+.cart-form-inp-area{
+  border: 1px solid lightgray;
+  height: 30px;
+  width: 40%;
+  font-size: 12px;
+}
+.cart-card-col-3{
+  display: flex;
+  justify-content: center;
+}
+.cart-card-col-2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.cart-card-2{
+  width: 60%;
+}
+.divider{
+  border-bottom: 1px solid lightgray;
+}
+.item-cart-con-2{
+  padding: 10px 10px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: space-evenly;
+  width: 100%;
+  height: 180px;
+}
+.cart-col-img{
+  width: 60%;
+}
+
+
+@media screen and (max-width: 992px) {
+  .collapse {
+    padding-left: 0;
+  }
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    justify-content: center;
+    padding-top: 10px;
+  }
+  .d-flex {
+    padding-top: 20px;
+    width: 100%;
+  }
+  .list-cat {
+    width: 100%;
+    font-size: 14px;
+  }
+  .li-items {
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-body {
+    font-size: 13px;
+  }
+  .pro-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .row-cols-md-5 > * {
+    width: 40%;
+  }
+  .featured-card{
+    font-size: 13px;
+  }
+  .btn-primary{
+    font-size: 12px;
+  }
+  .c3,
+  .c4,
+  .c5 {
+    display: none;
+  }
+  .login-form {
+    width: 100%;
+  }
+  .con-row {
+    display: flex;
+    flex-direction: column;
+  }
+  .foot-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .foot-menu-con {
+    margin-top: 20px;
+  }
+  .cart-card-body-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 250px; */
+  }
+  .cart-btn-add-sub{
+    width: 30px;
+    height: 30px;
+    padding: 4.5px;
+    text-align: center;
+  }
+  .cart-con-row{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .cart-col-img{
+    width: 20%;
+  }
+  .cart-card-1{
+    width: 60%;
+  }
+  
+}
+
+/* @media screen and (max-width : 768px) {
+    
+    .row-cols-md-5>*{
+        width: 50%;
+    }
+    
+} */
+
+@media screen and (max-width: 576px) {
+  .c2 {
+    display: none;
+  }
+  .c1{
+    width: 60%;
+  }
+}
