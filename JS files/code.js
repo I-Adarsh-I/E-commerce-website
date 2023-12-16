@@ -2,7 +2,8 @@
 
 class InsertEle extends HTMLElement {
   connectedCallback() {
-    this.innerHTML = `    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    this.innerHTML = `    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html">Navbar</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,7 +20,44 @@ class InsertEle extends HTMLElement {
         </ul>  
       </div>  
     </div>  
-  </nav>`;
+  </nav>
+  <div class="categories">
+      <ul class="list-cat">
+        <li class="li-items"><a href="index.html">Home</a></li>
+        <li class="li-items"><a href="products.html">All Products</a></li>
+        <div
+        class="dropdown-toggle li-items"
+        type="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+          >
+          Women
+        </div>
+        <ul class="dropdown-menu" id="demo">
+          <li><a class="dropdown-item" href="women.html">All products</a></li>
+          <li><a class="dropdown-item" href="women_dress.html">Dresses</a></li>
+          <li><a class="dropdown-item" href="women_pants.html">Pants</a></li>
+          <li><a class="dropdown-item" href="women_skirt.html">Skirts</a></li>
+        </ul>
+        <div
+          class="dropdown-toggle li-items"
+          type="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          men
+        </div>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="men.html">All products</a></li>
+          <li><a class="dropdown-item" href="men_shirt.html">Shirts</a></li>
+          <li><a class="dropdown-item" href="men_pants.html">Pants</a></li>
+          <li><a class="dropdown-item" href="men_hoodie.html">Hoodies</a></li>
+        </ul>
+        <li class="li-items"><a href="kids.html">Kids</a></li>
+        <li class="li-items"><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  `;
   }
 }
 
